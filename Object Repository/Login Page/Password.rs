@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>Commercial bonds left menu</name>
+   <description>textbox</description>
+   <name>Password</name>
    <tag></tag>
-   <elementGuidId>61d4cb7b-3a4f-4f3a-9c49-96b4d9beddfe</elementGuidId>
+   <elementGuidId>2d2719a3-1580-42dc-b182-8763b6c4193e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//input[@id=&quot;PASSWORD&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[text()=&quot;Commercial Bonds&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +20,6 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Find A bond/HomePage/Left Nav Frame</value>
+      <value>Object Repository/Login Page/FrameLoginPage</value>
    </webElementProperties>
 </WebElementEntity>

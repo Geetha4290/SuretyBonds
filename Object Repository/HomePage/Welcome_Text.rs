@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>textbox</description>
-   <name>Username</name>
+   <description>Welcome Great American Staff</description>
+   <name>Welcome_Text</name>
    <tag></tag>
-   <elementGuidId>b20412c9-968a-4a0b-9338-8ad3a57f8f5c</elementGuidId>
+   <elementGuidId>a26a8d92-a24e-43be-a707-37069fee4d70</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//h1[text()=&quot;Welcome Great American Staff!&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id=&quot;USER&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,6 +20,6 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Find A bond/Login Page/FrameLoginPage</value>
+      <value>Object Repository/HomePage/PayLoad Frame</value>
    </webElementProperties>
 </WebElementEntity>

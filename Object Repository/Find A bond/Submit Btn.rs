@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Welcome Great American Staff</description>
-   <name>Welcome_Text</name>
+   <description></description>
+   <name>Submit Btn</name>
    <tag></tag>
-   <elementGuidId>a26a8d92-a24e-43be-a707-37069fee4d70</elementGuidId>
+   <elementGuidId>cd341942-6345-4942-9fa4-ce0f774e1ff9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//input[@name=&quot;txFind&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//h1[text()=&quot;Welcome Great American Staff!&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

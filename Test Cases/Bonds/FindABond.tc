@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Verifying the calim status to bond is set to YES</description>
-   <name>BondClaimStatus</name>
+   <name>FindABond</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>cf99fb4a-0b5e-4db7-9ff1-8b7457760b66</testCaseGuid>

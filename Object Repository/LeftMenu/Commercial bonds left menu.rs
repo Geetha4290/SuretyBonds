@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>left menu</description>
-   <name>FindABond</name>
+   <description></description>
+   <name>Commercial bonds left menu</name>
    <tag></tag>
-   <elementGuidId>7694db58-0d3b-4b36-9039-df80327b9e93</elementGuidId>
+   <elementGuidId>61d4cb7b-3a4f-4f3a-9c49-96b4d9beddfe</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[text()=&quot;Commercial Bonds&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[text()=&quot;Find a Bond&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +20,6 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Find A bond/HomePage/Left Nav Frame</value>
+      <value>Object Repository/LeftMenu/Left Nav Frame</value>
    </webElementProperties>
 </WebElementEntity>

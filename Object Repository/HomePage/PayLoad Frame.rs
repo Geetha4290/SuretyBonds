@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Left Nav Frame</name>
+   <name>PayLoad Frame</name>
    <tag></tag>
-   <elementGuidId>b480bab2-5737-4214-8dcd-bb50ff964eff</elementGuidId>
+   <elementGuidId>039e79f4-3cb4-4101-bf4c-4a1fdd824fce</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//frame[@name=&quot;payload&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//frame[@name=&quot;left_nav&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

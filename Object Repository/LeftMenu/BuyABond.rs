@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>Bond Number Input</name>
+   <description>click</description>
+   <name>BuyABond</name>
    <tag></tag>
-   <elementGuidId>19206926-b4d1-4dcd-ab00-2c05b7ee82c5</elementGuidId>
+   <elementGuidId>87052539-0c00-4c14-87c7-d772a1d9aa41</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name=&quot;txFind&quot;]</value>
+         <value>//a[contains(text(),&quot;Buy a Bond&quot;)]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,6 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Find A bond/HomePage/PayLoad Frame</value>
+      <value>Object Repository/LeftMenu/Left Nav Frame</value>
    </webElementProperties>
 </WebElementEntity>

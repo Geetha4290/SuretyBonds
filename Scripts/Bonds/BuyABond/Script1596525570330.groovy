@@ -15,37 +15,31 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+'Open Browser'
 WebUI.openBrowser('')
 
+'Passing URL globally'
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Find A bond/Login Page/Username'), GlobalVariable.UN)
+'Passing username globally'
+WebUI.setText(findTestObject('Login Page/Username'), GlobalVariable.UN)
 
-WebUI.setText(findTestObject('Find A bond/Login Page/Password'), GlobalVariable.PW)
+'Passing password globally'
+WebUI.setText(findTestObject('Login Page/Password'), GlobalVariable.PW)
 
-WebUI.click(findTestObject('Find A bond/Login Page/Agree Btn'))
+'Click on agree button'
+WebUI.click(findTestObject('Login Page/Agree Btn'))
 
-WebUI.verifyElementText(findTestObject('Find A bond/HomePage/Welcome_Text'), 'Welcome Great American Staff!')
+'Verifying text on home'
+WebUI.verifyElementText(findTestObject('HomePage/Welcome_Text'), 'Welcome Great American Staff!')
 
-WebUI.click(findTestObject('Find A bond/HomePage/Commercial bonds left menu'))
+WebUI.click(findTestObject('LeftMenu/Commercial bonds left menu'))
 
-WebUI.click(findTestObject('Find A bond/HomePage/Bonds left menu'))
+WebUI.click(findTestObject('LeftMenu/Bonds'))
 
-WebUI.click(findTestObject('Find A bond/HomePage/FindABond'))
+WebUI.click(findTestObject('LeftMenu/BuyABond'))
 
-WebUI.selectOptionByValue(findTestObject('Find A bond/HomePage/Bond No DD'), 'Bond Number', false)
+WebUI.verifyElementText(findTestObject('BuyABond/ChooseAccount/BuyABond Text Validation'), 'Buy a Bond: Choose an Account')
 
-WebUI.setText(findTestObject('Find A bond/HomePage/Bond Number Input'), '1697178')
-
-WebUI.click(findTestObject('Find A bond/HomePage/Submit Btn'))
-
-WebUI.verifyElementText(findTestObject('Find A bond/View Bond/ViewBondText'), 'View Bond')
-
-WebUI.click(findTestObject('Find A bond/View Bond/ExitBondBtn'))
-
-WebUI.verifyElementText(findTestObject('Find A bond/HomePage/Welcome_Text'), 'Welcome Great American Staff!')
-
-WebUI.click(findTestObject('Find A bond/HomePage/Logout'))
-
-WebUI.acceptAlert(FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('BuyABond/ChooseAccount/ChooseAnAcc_Continue Btn'))
 
