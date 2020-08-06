@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>validating default Drop down value</description>
-   <name>Bond No DD</name>
+   <description>*Is this individual's spouse willing to indemnify the surety?:</description>
+   <name>SpouseIndmenifySuretyDD</name>
    <tag></tag>
-   <elementGuidId>4e5e1cfb-a4d0-4ebe-9d79-6226a1ad1ab4</elementGuidId>
+   <elementGuidId>3566be53-44f0-44ab-93a6-d5b73169ddfe</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@ref_element = 'Object Repository/HomePage/PayLoad Frame']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//select[@name=&quot;cmbFind&quot;]	</value>
+         <value>//select[@name=&quot;QG2099565656&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

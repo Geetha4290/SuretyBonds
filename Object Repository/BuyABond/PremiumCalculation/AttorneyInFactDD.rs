@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>validating default Drop down value</description>
-   <name>Bond No DD</name>
+   <description>Drop down</description>
+   <name>AttorneyInFactDD</name>
    <tag></tag>
-   <elementGuidId>4e5e1cfb-a4d0-4ebe-9d79-6226a1ad1ab4</elementGuidId>
+   <elementGuidId>e3738583-5b9e-4e23-a767-99a40a61771d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@ref_element = 'Object Repository/HomePage/PayLoad Frame']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//select[@name=&quot;cmbFind&quot;]	</value>
+         <value>//select[@name=&quot;cmbAttInFact&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

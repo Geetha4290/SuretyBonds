@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>validating default Drop down value</description>
-   <name>Bond No DD</name>
+   <description>Buy a Bond: Choose Bond Type</description>
+   <name>PremiumCalculationTxtValidtn</name>
    <tag></tag>
-   <elementGuidId>4e5e1cfb-a4d0-4ebe-9d79-6226a1ad1ab4</elementGuidId>
+   <elementGuidId>eb12985a-ffbd-46ac-803b-0652d738a496</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@ref_element = 'Object Repository/HomePage/PayLoad Frame']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//select[@name=&quot;cmbFind&quot;]	</value>
+         <value>//h1[contains(text(),&quot;Buy a Bond: Premium Calculation&quot;)]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

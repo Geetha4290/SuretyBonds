@@ -35,27 +35,32 @@ WebUI.click(findTestObject('Login Page/Agree Btn'))
 'Verifying text on home'
 WebUI.verifyElementText(findTestObject('HomePage/Welcome_Text'), 'Welcome Great American Staff!')
 
+'Click on commercial bonds on left menu'
 WebUI.click(findTestObject('LeftMenu/Commercial bonds left menu'))
 
+'Click on bonds on left menu'
 WebUI.click(findTestObject('LeftMenu/Bonds'))
 
+'click on find a bond on left menu'
 WebUI.click(findTestObject('LeftMenu/FindABond'))
 
+'Verifying drop down is having default value'
 WebUI.selectOptionByLabel(findTestObject('Find A bond/Bond No DD'), 'Bond Number', false)
 
+'Giving bond number'
 WebUI.setText(findTestObject('Find A bond/Bond Number Input'), '1697178')
 
+'Click on submit button'
 WebUI.click(findTestObject('Find A bond/Submit Btn'))
 
-WebUI.delay(3)
-
-WebUI.verifyElementText(findTestObject('View Bond/ViewBondText'), 'View Bond')
-
-WebUI.click(findTestObject('View Bond/ExitBondBtn'))
-
-WebUI.verifyElementText(findTestObject('HomePage/Welcome_Text'), 'Welcome Great American Staff!')
-
-WebUI.click(findTestObject('LeftMenu/Logout'))
-
+'Accepting alert to view the bond'
 WebUI.acceptAlert(FailureHandling.STOP_ON_FAILURE)
+
+WebUI.switchToWindowTitle('e-SURETY ... Surety Bonds Online')
+
+'Validating Bond Number text'
+WebUI.verifyElementText(findTestObject('View Bond/BondNumberTxtVal'), 'Bond Number:')
+
+'Validating Bond Number'
+WebUI.verifyElementText(findTestObject('Object Repository/View Bond/BondNumber'), '1697178')
 

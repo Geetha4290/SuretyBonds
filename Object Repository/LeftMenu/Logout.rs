@@ -6,11 +6,11 @@
    <elementGuidId>d7308e9b-dd03-4974-8c89-b2233c06ff2e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[text()=&quot;Logout&quot;]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//a[text()=&quot;Logout&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,6 +20,6 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/HomePage/PayLoad Frame</value>
+      <value>Object Repository/LeftMenu/Left Nav Frame</value>
    </webElementProperties>
 </WebElementEntity>
