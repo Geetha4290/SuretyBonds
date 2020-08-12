@@ -4,4 +4,19 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://mysuretycert.gaic.com/'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'SuretyAutotest'</initValue>
+      <name>UN</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Ka6DAMuj2mZY67UR'</initValue>
+      <name>PW</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

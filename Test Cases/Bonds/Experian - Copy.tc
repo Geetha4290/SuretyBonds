@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Creating a bond &amp; validating credit score</description>
+   <name>Experian - Copy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>36a08ebd-2c78-4d04-9e25-cad74c940f2b</testCaseGuid>
+</TestCaseEntity>
