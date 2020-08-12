@@ -170,10 +170,13 @@ WebUI.delay(5)
 
 WebUI.verifyElementText(findTestObject('UI Test Objects/Pages/Buy A Bond Pages/Decision/labelDecision'), 'Buy a Bond: Decision')
 
+'Save quote button click'
 WebUI.click(findTestObject('UI Test Objects/Pages/Buy A Bond Pages/Decision/btnSaveQuote'))
 
+'delay'
 WebUI.delay(5)
 
+'Validating Quotation page name '
 WebUI.verifyElementText(findTestObject('UI Test Objects/Pages/Buy A Bond Pages/Quotation/labelQuotation'), 'Buy a Bond: Quotation')
 
 WebUI.click(findTestObject('UI Test Objects/Pages/Buy A Bond Pages/Quotation/btnGoToBond'))
