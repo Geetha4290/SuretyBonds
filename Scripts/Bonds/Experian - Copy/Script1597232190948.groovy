@@ -179,10 +179,12 @@ WebUI.delay(5)
 'Validating Quotation page name '
 WebUI.verifyElementText(findTestObject('UI Test Objects/Pages/Buy A Bond Pages/Quotation/labelQuotation'), 'Buy a Bond: Quotation')
 
+'Click on go to bond button'
 WebUI.click(findTestObject('UI Test Objects/Pages/Buy A Bond Pages/Quotation/btnGoToBond'))
 
 WebUI.delay(5)
 
+'Getting tracking number based on text tracking number'
 def Trackingnumber = CustomKeywords.'bonds.MySurety.BondInfo'('Tracking Number:')
 
 println('Tracking number is:' + Trackingnumber)
