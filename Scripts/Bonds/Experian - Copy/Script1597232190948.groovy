@@ -156,14 +156,15 @@ WebUI.click(findTestObject('UI Test Objects/Pages/Buy A Bond Pages/CompanyBusine
 WebUI.delay(5)
 
 WebUI.verifyElementText(findTestObject('UI Test Objects/Pages/Buy A Bond Pages/ReviewScreen/labelReviewScreen'), 'Buy a Bond: Review Screen')
-
+'delay'
 WebUI.delay(5)
 
 WebUI.selectOptionByLabel(findTestObject('UI Test Objects/Pages/Buy A Bond Pages/ReviewScreen/listApplicantName'), 'Nancy L Birkhead', 
     false)
-
+'delay'
 WebUI.delay(3)
 
+'submit button'
 WebUI.click(findTestObject('UI Test Objects/Pages/Buy A Bond Pages/ReviewScreen/btnSubmit'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
